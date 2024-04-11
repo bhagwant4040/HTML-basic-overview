@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<!--declation used code ke starting mai -->
+
+<html lang="en">
+<!--define the language of webpage -->
+
+ <head> 
+ <!-- head part of code, codes written here are not that much visible to users but still important for webpages-->
+
+     <meta charset="utf-8"> 
+     <!-- define the unicode of page "utf-8" is used for English letters and numbers -->
+
+     <meta name="author", content="your_name"> 
+     <!-- title is a tag which gives information about web page and it's creator-->
+     <!--there are more type of meta data avaliable-->
+
+     <title>This is just a overview</title>
+     <!--title is the title of the page that will display on tab -->
+
+     <base href="WebsiteLink" target="IndicatesTheDefaultLocation">
+     <!--specifies the base URL or target location for all relative URLs within an HTML document-->
+
+     <link rel="RelationshipOfLinkedDocument", href="LocationOfFile", type="TypeOfContentLinkedTo">
+     <!--this is used to link external material, in rel we define the type like icon, stylesheet,, in herf we provide the pathway to that file(file should be in the where the code is stored),, in type we define the type of content linked to such as text/html, text/css, image/x-icon -->
+
+     <style>
+         body {background-color: powderblue;}
+         h1 {color: red;}
+         p {color: blue;}
+     </style>
+     <!--style is use to add css inside html code-->
+
+     <script> console.log(1412); </script>
+     <!--script tag is use to write js inside html code-->
+
+ </head>
+ <!--head closed-->
+
+ <body>
+ <!--after head we start writing our codes in body-->
+
+     <header>
+     <!--header tag act as an container for introductory content-->
+
+         <h1>Hello world</h1>
+         <!--h1 is use to give heading to paragraphs, devisions, etc. further more h2,h3 so on.. as the number increases boldness and size decreses-->
+
+         <p>this is a paragraph</p>
+         <!--this tag use to write a paragraph-->
+
+     </header>
+     <!--it typically contains logo, site navigation element, authorship information.-->
+
+
+     <img src="ImageAddress" alt="AlternateTextIfImageCannotBeLoaded" width="WidthInPixel" height="HeightInPixel">
+     <!--used to link images inside our webpage defining width and height is totally optional-->
+
+     <a herf="LinkAddress">TextHere</a>
+     <!--this tag used to link any address with text-->
+     
+     <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+     </ol>
+     <!--this is ol"ordered list" tag which shows items in order, in ol counting is shown before every item-->
+
+     <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+     </ul>
+     <!--this is ul"unordered list" tag which shows items not in order, in ul dot are shown to indentify  each item.-->
+
+     <br>
+     <!--break line or new page-->
+
+     <hr>
+     <!--horizontal rule or separator between content-->
+
+     <p><form action="webAddress" method="get">
+         <!-- from tag is used to take input from user -->
+
+         <label for="Name"> </label>
+         <!-- used to display a caption for a specific item on a webpage-->
+
+         <input type="int " id="id_name" name="NameOfTheFeild" placeholder ="TextToBeShownInBox"><br>
+         <!--specify the user field where user can enter sata-->
+
+         <button type ="button", onclick="add()"  >submit</button>
+         <!--a button used to trigger an action when clicked-->
+
+     </form></p>
+
+     <footer>
+        <!--defines a footer for a document or section.-->
+
+         <p>Author: NameOfAuthor</p>
+         <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+
+     </footer>
+     <!--element typically contains authorship information, copyright information, contact information, sitemap, back to top links, related documents-->
+
+ </body>
+
+</html>
